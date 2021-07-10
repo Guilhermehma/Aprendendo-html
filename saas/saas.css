@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Paprika&display=swap');
+
+*{
+    background-color: burlywood;
+}
+
+h1{
+    font-family: 'Jomhuria', cursive;
+    font-size: 64px;
+    color: crimson;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    position: absolute;
+    top: 14%;
+    left: 33%;
+    font-family: 'Jomhuria', cursive;
+    font-size: 32px;
+    color: darkcyan;
+}
+
+h3{
+    font-size: 48px;
+    color: dimgrey;
+    text-align: center;
+}
+
+.botao{
+    text-align: center;
+}
+
+button{
+    font-family: 'Paprika', cursive;
+    font-size: 32px;
+    background-color:gray;
+    color:lightseagreen;
+    padding: 20px;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: orange;
+    border-style: solid;
+    /*Pode ser substituído por:
+    boder: "width" "style" "color"*/
+}
+
+button:hover{
+    font-family: 'Paprika', cursive;
+    font-size: 32px;
+    background-color:gray;
+    color:black;
+    cursor: pointer;
+}
+
+#imagens{
+    position: absolute;
+    left: 20%;
+}

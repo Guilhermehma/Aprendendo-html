@@ -1,0 +1,9 @@
+#grid{
+    display: grid;
+    background-color:honeydew;
+    font-size: 20px;
+    grid-template-columns: repeat(4, 1px);
+    /*grid-template-columns: 1px 1px 1px 1px*/
+    column-gap: 80px;
+    row-gap: 10px;
+}

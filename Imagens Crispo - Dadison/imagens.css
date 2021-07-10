@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+*{
+    background-color: grey;
+}
+
+.texto1{
+    color: red;
+    text-align: center;
+    background-color: lightseagreen;
+    font-family: 'Yellowtail', cursive;
+}
+
+h1{
+    background-color: lightseagreen;
+}
+
+a:hover{
+    color: red;
+}
+
+a{
+    font-size: 80px;
+}
+
+.imagem1 img{
+    border: 2px outset black;
+}
+
+#imgpos1{
+    position: absolute;
+    left: 190px;
+}
+
+#imgpos2{
+    position: absolute;
+    left: 520px;
+}
+
+#imgpos3{
+    position: absolute;
+    left: 850px;
+}
+
+#imgpos4{
+    position: absolute;
+    left: 520px;
+    top: 390px;
+}
+
+#imgpos5{
+    position: absolute;
+    left: 690px;
+    top: 630px;
+}
+
+#imgpos6{
+    position: absolute;
+    left: 360px;
+    top: 630px;
+}
