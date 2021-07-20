@@ -1,0 +1,223 @@
+#body1{
+    background-image: linear-gradient(to bottom, rgb(0,32,5), rgb(0,186,30));
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img{
+    width: 130px;
+}
+
+#imagem{
+    text-align: center;
+}
+
+h1{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.container{
+    width: 300px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10%;
+    padding: 2% 2%;
+}
+
+input{
+    width: 100%;
+    height: 42px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 216, 216);
+    transition: 0.1s ease-in-out;
+    color: rgb(255, 216, 216);
+}
+
+.field{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(255, 216, 216);
+    transform: translateY(18px);
+    transition: 0.1s ease-in-out;
+}
+
+input:focus{
+    border-bottom: 2px solid rgb(133, 35, 35);
+    box-shadow: 0 1px 0 0 rgb(133, 35, 35);
+}
+
+input:focus + label{
+    transform: translateY(-14px) scale(0.85);
+    color: rgb(133, 35, 35);
+    font-weight: bold;
+}
+
+input:not(:placeholder-shown) + label{
+    transform: translateY(-14px) scale(0.75);
+    font-weight: bold;
+}
+
+input::placeholder{
+    color: transparent;
+}
+
+button{
+    padding: 6% 30%;
+    margin-top: 12%;
+    margin-bottom: 19%;
+    font-size: 20px;
+    background: transparent;
+    border: 3px solid rgb(255, 245, 245);
+    color: rgb(255, 245, 245);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: ease-in-out 0.1s;
+}
+
+.center{
+    text-align: center;
+}
+
+button:hover{
+    border: 3px solid rgb(133, 35, 35);
+    color: rgb(133, 35, 35);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 216, 216);
+    transition: ease-in-out 0.1s;
+    font-size: 10px;
+}
+
+a:hover{
+    color: rgb(133, 35, 35);
+}
+
+@media(max-width: 1023px){
+
+    #body1{
+        background-image: linear-gradient(to bottom, rgb(0,32,5), rgb(0,186,30));
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    img{
+        width: 50%;
+    }
+    
+    #imagem{
+        text-align: center;
+        margin-bottom: 8vh;
+    }
+    
+    h1{
+        font-size: 28px;
+        color: white;
+        text-align: center;
+        margin: 30px;
+    }
+    
+    .container{
+        width: 100%;
+        height: 90%;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 5%;
+        padding: 2% 2%;
+    }
+    
+    input{
+        width: 100%;
+        height: 42px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgb(255, 216, 216);
+        transition: 0.1s ease-in-out;
+        color: rgb(255, 216, 216);
+    }
+    
+    .field{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: rgb(255, 216, 216);
+        transform: translateY(18px);
+        transition: 0.1s ease-in-out;
+    }
+    
+    input:focus{
+        border-bottom: 2px solid rgb(133, 35, 35);
+        box-shadow: 0 1px 0 0 rgb(133, 35, 35);
+    }
+    
+    input:focus + label{
+        transform: translateY(-14px) scale(0.85);
+        color: rgb(133, 35, 35);
+        font-weight: bold;
+    }
+    
+    input:not(:placeholder-shown) + label{
+        transform: translateY(-14px) scale(0.75);
+        font-weight: bold;
+    }
+    
+    input::placeholder{
+        color: transparent;
+    }
+    
+    button{
+        padding: 4% 20%;
+        margin-top: 8vh;
+        margin-bottom: 12vh;
+        font-size: 20px;
+        background: transparent;
+        border: 3px solid rgb(255, 245, 245);
+        color: rgb(255, 245, 245);
+        border-radius: 25px;
+        cursor: pointer;
+        transition: ease-in-out 0.1s;
+    }
+    
+    .center{
+        text-align: center;
+    }
+    
+    button:hover{
+        border: 3px solid rgb(133, 35, 35);
+        color: rgb(133, 35, 35);
+    }
+    
+    a{
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 216, 216);
+        transition: ease-in-out 0.1s;
+        font-size: 10px;
+    }
+    
+    a:hover{
+        color: rgb(133, 35, 35);
+    }
+}
