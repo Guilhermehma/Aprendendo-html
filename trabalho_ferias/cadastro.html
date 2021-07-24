@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCF - Cadastro</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/imagens/chutando_bola.png">
+
+    <script language="Javascript">
+        function mensagem(){
+            alert("Cadastro efetuado com sucesso!!!");
+        }
+    </script>
+</head>
+
+<body id="body1">
+    <div class="container">
+         <div class="field2">
+            <input type="date" id="nascimento" placeholder="Data de nascimento">
+            <label for="nascimento">Data de nascimento:</label>
+        </div>
+
+        <div class="field2">
+            <input type="color" id="cor" placeholder="Escreva sua cor favorita">
+            <label for="cor">Cor favorita:</label>
+        </div>
+
+        <div class="field">
+            <input type="email" id="nome" placeholder="Escreva seu email">
+            <label for="nome">Email:</label>
+        </div>
+
+        <div class="field">
+            <input type="password" id="senha" placeholder="Digite sua senha">
+            <label for="senha">Crie uma senha:</label>
+        </div>
+
+        <div class="field">
+            <input type="password" id="senha2" placeholder="Digite sua senha">
+            <label for="senha2">Confirme sua senha:</label>
+        </div>
+
+        <div class="center">
+            <a href="http://127.0.0.1:5500/trabalho_ferias/login.html">
+            <button class="button2" onclick="mensagem()">Continuar</button></a>
+        </div>
+
+        <div class="links2">
+            <a href="http://127.0.0.1:5500/trabalho_ferias/login.html"><h2>Cancelar</h2></a>
+        </div>
+    </div>
+</body>
+</html>
