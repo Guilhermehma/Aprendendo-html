@@ -311,6 +311,20 @@ a:hover{
     color: whitesmoke;
 }
 
+tt{
+    padding-left: 3%;
+}
+
+#tt2{
+    padding-left: 24%;
+}
+
+#imagem3{
+    width: 0px;
+}
+
+
+
 
 
 
@@ -325,6 +339,15 @@ a:hover{
         justify-content: center;
         align-items: center;
         height: 100vh;
+    }
+
+    #body2{
+        background-image: url(/imagens/fundo_futebol.jpg);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 98vh;
     }
 
     .imagem1{
@@ -437,7 +460,7 @@ a:hover{
         color: rgb(133, 35, 35);
     }
     
-    a{
+    a:not("a2"){
         text-align: center;
         text-decoration: none;
         color: rgb(255, 216, 216);
@@ -447,5 +470,126 @@ a:hover{
     
     a:hover{
         color: rgb(133, 35, 35);
+    }
+
+    #grid{
+        display: grid;
+        position: absolute;
+        width: 100%;
+        grid-template-areas: "head head" "main main" "foot foot";
+        grid-template-columns: 150px 1fr;
+        grid-template-rows: 12vh 1fr 10vh;
+    }
+    
+    #grid>header{
+        grid-area: head;
+        background-color: whitesmoke;
+        text-align: center;
+        font-size: 68px;
+        color: red;
+    }
+    
+    #grid>nav{
+        display: none;
+    }
+    
+    #grid>main{
+        grid-area: main;
+        background-color: rgba(19, 19, 19, 0.8);
+    }
+    
+    #grid>footer{
+        grid-area: foot;
+        background-color: rgb(133, 35, 35);
+        font-size: 18px;
+        color: whitesmoke;
+    }
+
+    .header{
+        width: 0px;
+    }
+
+    h3{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .grid2{
+        margin-left: 5%;
+        margin-top: 8vh;
+        width: 118%;
+        height: 36vh;
+        cursor: pointer;
+    }
+    
+    .grid2>header{
+        display: none;
+    }
+    
+    .grid2>main{
+        background-color: rgb(133, 35, 35);
+        font-size: 21px;
+        color: yellow;
+        text-align: center;
+        font-family: 'Otomanopee One';
+    }
+    
+    .grid2>footer{
+        display: none;
+    }
+
+    .grid3{
+        margin-left: -24%;
+        margin-top: 8vh;
+        width: 118%;
+        height: 36vh;
+        cursor: pointer;
+    }
+    
+    .grid3>header{
+        display: none;
+    }
+    
+    .grid3>main{
+        background-color: rgb(133, 35, 35);
+        font-size: 21px;
+        color: yellow;
+        text-align: center;
+        font-family: 'Otomanopee One';
+    }
+    
+    .grid3>footer{
+        display: none;
+    }
+
+    tt:not(#tt2){
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    #tt2{
+        font-size: 12px;
+        margin-left: -12%;
+    }
+
+    #a2{
+        text-decoration: none;
+        color: rgb(255, 216, 216);            
+        transition: ease-in-out 0.1s;
+        font-size: 10px;
+    }
+
+    #imagem2{
+        position: absolute;
+        left: 85%;
+        top: 3%;
+        width: 45px;
+    }
+
+    #imagem3{
+        position: absolute;
+        left: 5%;
+        top: 3%;
+        width: 40px;
     }
 }
